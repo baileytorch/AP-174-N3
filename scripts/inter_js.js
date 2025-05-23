@@ -11,11 +11,17 @@ var boton_inicio = document.getElementById("boton_Enviar");
 
 function validar_formulario() {
     var inputNombre = document.getElementById('inputNombre');
-    var ayudaNombre = document.getElementById('alerta_nombre');
+    var inputEmail = document.getElementById('inputEmail');
+    var inputRut = document.getElementById("inputRut");
 
     if (inputNombre.value == "") {
         inputNombre.classList.add('is-invalid');
-        ayudaNombre.style.display = "block";
+    }
+    if (inputEmail.value == "") {
+        inputEmail.classList.add('is-invalid');
+    }
+    if (inputRut.value == "") {
+        inputRut.classList.add('is-invalid');
     }
 
 }
