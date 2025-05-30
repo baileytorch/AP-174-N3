@@ -47,10 +47,35 @@
                     RUT inválido.
                 </div>
             </div>
+        </div>
+        <br>
 
-            <script>
-                // alert("Cargando script en línea...")
-            </script>
+        <div class="row">
+            <div class="col">
+                <label for="inputContrasena" class="form-label">Contraseña</label>
+                <input type="password" class="form-control" id="inputContrasena">
+                <div id="ayudaInputContrasena" class="invalid-feedback">
+                    <p>La contraseña debe tener:
+                    <ul>
+                        <li>8 - 16 caracteres.</li>
+                        <li>Al menos un dígito.</li>
+                        <li>Al menos una minúscula.</li>
+                        <li>Al menos una mayúscula.</li>
+                        <li>Al menos un símbolo.</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="col">
+                <label for="inputRepetirContrasena" class="form-label">Repetir Contraseña</label>
+                <input type="password" class="form-control div_rojo" id="inputRepetirContrasena">
+                <div id="ayudaInputRepetirContrasena" class="invalid-feedback">
+                    Las contraseñas deben coincidir.
+                </div>
+            </div>
+
+            <div class="col">
+            </div>
         </div>
         <br>
 
